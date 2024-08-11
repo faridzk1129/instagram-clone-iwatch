@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7515E79C2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7515E79B2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7515E7A12C5E009A00CA51F8 /* instagramReDesign_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7515E7A02C5E009A00CA51F8 /* instagramReDesign_WatchApp.swift */; };
+		7515E7A32C5E009A00CA51F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7515E7A22C5E009A00CA51F8 /* ContentView.swift */; };
+		7515E7A52C5E009C00CA51F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7515E7A42C5E009C00CA51F8 /* Assets.xcassets */; };
+		7515E7A82C5E009C00CA51F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7515E7A72C5E009C00CA51F8 /* Preview Assets.xcassets */; };
+		7515E7B22C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7515E7B12C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppTests.swift */; };
+		7515E7BC2C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7515E7BB2C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppUITests.swift */; };
+		7515E7BE2C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7515E7BD2C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7515E79D2C5E009A00CA51F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7515E78F2C5E009A00CA51F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7515E79A2C5E009A00CA51F8;
+			remoteInfo = "instagramReDesign_Watch Watch App";
+		};
+		7515E7AE2C5E009C00CA51F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7515E78F2C5E009A00CA51F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7515E79A2C5E009A00CA51F8;
+			remoteInfo = "instagramReDesign_Watch Watch App";
+		};
+		7515E7B82C5E009C00CA51F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7515E78F2C5E009A00CA51F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7515E79A2C5E009A00CA51F8;
+			remoteInfo = "instagramReDesign_Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7515E7C42C5E009C00CA51F8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7515E79C2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7515E7952C5E009A00CA51F8 /* instagramReDesign_Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instagramReDesign_Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7515E79B2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instagramReDesign_Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7515E7A02C5E009A00CA51F8 /* instagramReDesign_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagramReDesign_WatchApp.swift; sourceTree = "<group>"; };
+		7515E7A22C5E009A00CA51F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7515E7A42C5E009C00CA51F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7515E7A72C5E009C00CA51F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7515E7AD2C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instagramReDesign_Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7515E7B12C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagramReDesign_Watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		7515E7B72C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instagramReDesign_Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7515E7BB2C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagramReDesign_Watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		7515E7BD2C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagramReDesign_Watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7515E7982C5E009A00CA51F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7515E7AA2C5E009C00CA51F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7515E7B42C5E009C00CA51F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7515E78E2C5E009A00CA51F8 = {
+			isa = PBXGroup;
+			children = (
+				7515E79F2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App */,
+				7515E7B02C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppTests */,
+				7515E7BA2C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppUITests */,
+				7515E7962C5E009A00CA51F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7515E7962C5E009A00CA51F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7515E7952C5E009A00CA51F8 /* instagramReDesign_Watch.app */,
+				7515E79B2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App.app */,
+				7515E7AD2C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppTests.xctest */,
+				7515E7B72C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7515E79F2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				7515E7A02C5E009A00CA51F8 /* instagramReDesign_WatchApp.swift */,
+				7515E7A22C5E009A00CA51F8 /* ContentView.swift */,
+				7515E7A42C5E009C00CA51F8 /* Assets.xcassets */,
+				7515E7A62C5E009C00CA51F8 /* Preview Content */,
+			);
+			path = "instagramReDesign_Watch Watch App";
+			sourceTree = "<group>";
+		};
+		7515E7A62C5E009C00CA51F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7515E7A72C5E009C00CA51F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7515E7B02C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7515E7B12C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppTests.swift */,
+			);
+			path = "instagramReDesign_Watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		7515E7BA2C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7515E7BB2C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppUITests.swift */,
+				7515E7BD2C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "instagramReDesign_Watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7515E7942C5E009A00CA51F8 /* instagramReDesign_Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7515E7C52C5E009C00CA51F8 /* Build configuration list for PBXNativeTarget "instagramReDesign_Watch" */;
+			buildPhases = (
+				7515E7932C5E009A00CA51F8 /* Resources */,
+				7515E7C42C5E009C00CA51F8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7515E79E2C5E009A00CA51F8 /* PBXTargetDependency */,
+			);
+			name = instagramReDesign_Watch;
+			productName = instagramReDesign_Watch;
+			productReference = 7515E7952C5E009A00CA51F8 /* instagramReDesign_Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		7515E79A2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7515E7C12C5E009C00CA51F8 /* Build configuration list for PBXNativeTarget "instagramReDesign_Watch Watch App" */;
+			buildPhases = (
+				7515E7972C5E009A00CA51F8 /* Sources */,
+				7515E7982C5E009A00CA51F8 /* Frameworks */,
+				7515E7992C5E009A00CA51F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "instagramReDesign_Watch Watch App";
+			productName = "instagramReDesign_Watch Watch App";
+			productReference = 7515E79B2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7515E7AC2C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7515E7C82C5E009C00CA51F8 /* Build configuration list for PBXNativeTarget "instagramReDesign_Watch Watch AppTests" */;
+			buildPhases = (
+				7515E7A92C5E009C00CA51F8 /* Sources */,
+				7515E7AA2C5E009C00CA51F8 /* Frameworks */,
+				7515E7AB2C5E009C00CA51F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7515E7AF2C5E009C00CA51F8 /* PBXTargetDependency */,
+			);
+			name = "instagramReDesign_Watch Watch AppTests";
+			productName = "instagramReDesign_Watch Watch AppTests";
+			productReference = 7515E7AD2C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7515E7B62C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7515E7CB2C5E009C00CA51F8 /* Build configuration list for PBXNativeTarget "instagramReDesign_Watch Watch AppUITests" */;
+			buildPhases = (
+				7515E7B32C5E009C00CA51F8 /* Sources */,
+				7515E7B42C5E009C00CA51F8 /* Frameworks */,
+				7515E7B52C5E009C00CA51F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7515E7B92C5E009C00CA51F8 /* PBXTargetDependency */,
+			);
+			name = "instagramReDesign_Watch Watch AppUITests";
+			productName = "instagramReDesign_Watch Watch AppUITests";
+			productReference = 7515E7B72C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7515E78F2C5E009A00CA51F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7515E7942C5E009A00CA51F8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7515E79A2C5E009A00CA51F8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7515E7AC2C5E009C00CA51F8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7515E79A2C5E009A00CA51F8;
+					};
+					7515E7B62C5E009C00CA51F8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7515E79A2C5E009A00CA51F8;
+					};
+				};
+			};
+			buildConfigurationList = 7515E7922C5E009A00CA51F8 /* Build configuration list for PBXProject "instagramReDesign_Watch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7515E78E2C5E009A00CA51F8;
+			productRefGroup = 7515E7962C5E009A00CA51F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7515E7942C5E009A00CA51F8 /* instagramReDesign_Watch */,
+				7515E79A2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App */,
+				7515E7AC2C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppTests */,
+				7515E7B62C5E009C00CA51F8 /* instagramReDesign_Watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7515E7932C5E009A00CA51F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7515E7992C5E009A00CA51F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7515E7A82C5E009C00CA51F8 /* Preview Assets.xcassets in Resources */,
+				7515E7A52C5E009C00CA51F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7515E7AB2C5E009C00CA51F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7515E7B52C5E009C00CA51F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7515E7972C5E009A00CA51F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7515E7A32C5E009A00CA51F8 /* ContentView.swift in Sources */,
+				7515E7A12C5E009A00CA51F8 /* instagramReDesign_WatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7515E7A92C5E009C00CA51F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7515E7B22C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7515E7B32C5E009C00CA51F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7515E7BE2C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				7515E7BC2C5E009C00CA51F8 /* instagramReDesign_Watch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7515E79E2C5E009A00CA51F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7515E79A2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App */;
+			targetProxy = 7515E79D2C5E009A00CA51F8 /* PBXContainerItemProxy */;
+		};
+		7515E7AF2C5E009C00CA51F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7515E79A2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App */;
+			targetProxy = 7515E7AE2C5E009C00CA51F8 /* PBXContainerItemProxy */;
+		};
+		7515E7B92C5E009C00CA51F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7515E79A2C5E009A00CA51F8 /* instagramReDesign_Watch Watch App */;
+			targetProxy = 7515E7B82C5E009C00CA51F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7515E7BF2C5E009C00CA51F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7515E7C02C5E009C00CA51F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7515E7C22C5E009C00CA51F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"instagramReDesign_Watch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = instagramReDesign_Watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithfarid.instagramReDesign-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		7515E7C32C5E009C00CA51F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"instagramReDesign_Watch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = instagramReDesign_Watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithfarid.instagramReDesign-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		7515E7C62C5E009C00CA51F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = instagramReDesign_Watch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithfarid.instagramReDesign-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7515E7C72C5E009C00CA51F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = instagramReDesign_Watch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithfarid.instagramReDesign-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7515E7C92C5E009C00CA51F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithfarid.instagramReDesign-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instagramReDesign_Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/instagramReDesign_Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		7515E7CA2C5E009C00CA51F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithfarid.instagramReDesign-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instagramReDesign_Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/instagramReDesign_Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		7515E7CC2C5E009C00CA51F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithfarid.instagramReDesign-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "instagramReDesign_Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		7515E7CD2C5E009C00CA51F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithfarid.instagramReDesign-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "instagramReDesign_Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7515E7922C5E009A00CA51F8 /* Build configuration list for PBXProject "instagramReDesign_Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7515E7BF2C5E009C00CA51F8 /* Debug */,
+				7515E7C02C5E009C00CA51F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7515E7C12C5E009C00CA51F8 /* Build configuration list for PBXNativeTarget "instagramReDesign_Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7515E7C22C5E009C00CA51F8 /* Debug */,
+				7515E7C32C5E009C00CA51F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7515E7C52C5E009C00CA51F8 /* Build configuration list for PBXNativeTarget "instagramReDesign_Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7515E7C62C5E009C00CA51F8 /* Debug */,
+				7515E7C72C5E009C00CA51F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7515E7C82C5E009C00CA51F8 /* Build configuration list for PBXNativeTarget "instagramReDesign_Watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7515E7C92C5E009C00CA51F8 /* Debug */,
+				7515E7CA2C5E009C00CA51F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7515E7CB2C5E009C00CA51F8 /* Build configuration list for PBXNativeTarget "instagramReDesign_Watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7515E7CC2C5E009C00CA51F8 /* Debug */,
+				7515E7CD2C5E009C00CA51F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7515E78F2C5E009A00CA51F8 /* Project object */;
+}
